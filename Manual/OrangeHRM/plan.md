@@ -135,14 +135,13 @@ Outcome: User successfully redirected to Dashboard upon valid login.
 ```
 [Execution Result] – FAILED  
 Issue: Error message not shown for invalid input.  
-Bug Reference: QA-ID
+Bug Reference: BUG_ID
 ```
 
 #### `test case entry example`
 
 ```
 **Test Case ID**: TC_Login_001  
-**Title**: Valid login with correct credentials
 
 **Module**: Login Page
 
@@ -167,8 +166,7 @@ User is redirected to the Dashboard page and login is successful.
 #### `bug report example`
 
 ```
-**Bug ID**: QA-Login-001  
-**Title**: [BUG] No error message when logging in with invalid username
+**Bug ID**: BUG_Login_001  
 
 **Reported by**: Demirhan Yalcin  
 **Date**: 2025-08-04  
@@ -196,6 +194,9 @@ No message appears; page reloads silently
 
 **Impact:**  
 The user is not informed why login failed, affecting usability and error handling.
+
+**Labels**: `validation`, `manual`, `login`
+
 
 **Attachments**:  
 - Screenshot: `invalid-login-no-error.png`
