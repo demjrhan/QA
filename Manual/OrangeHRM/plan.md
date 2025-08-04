@@ -1,5 +1,5 @@
 
-To simulate a real-world manual QA process by testing the publicly available OrangeHRM demo application. The official QA execution, documentation, and defect tracking will be managed in Jira. This Obsidian vault will serve as a personal knowledge base and reflection journal throughout the project.
+To simulate a real-world manual QA process by testing the publicly available OrangeHRM demo application. The official QA execution, documentation, and defect tracking will be managed in Jira. This Obsidian vault serves as a personal knowledge base for test planning, test case documentation, and end-of-cycle retrospectives.
 
 ---
 
@@ -22,7 +22,7 @@ To simulate a real-world manual QA process by testing the publicly available Ora
   - Writing and executing test cases
   - Logging and tracking bugs
   - Organizing tasks by test cycles or modules
-  - Using labels and priorities for categorization
+  - Using labels (`executed_passed`, `executed_failed`, etc.)
 - **Issue Types**:
   - Test Case
   - Bug
@@ -31,16 +31,15 @@ To simulate a real-world manual QA process by testing the publicly available Ora
 ### Supporting Tool: Obsidian
 
 - **Used for**:
-  - Personal notes and test strategy drafts
-  - Logging learning progress and discoveries
-  - End-of-cycle summaries and reflections
-  - Observations not directly tied to execution (e.g., UI/UX thoughts, tooling feedback)
+  - Test case documentation (copied from Jira descriptions)
+  - Notes and observations during testing
+  - Writing retrospectives and what was learned
 
 ---
 
 ## Test Coverage Scope
 
-The following functionality will be tested manually through Jira-based test cases:
+The following functionality will be tested manually using Jira-managed test cases:
 
 ### 1. Login Page
 - Valid/Invalid credentials
@@ -72,29 +71,31 @@ The following functionality will be tested manually through Jira-based test case
 
 ---
 
-## Bug Reporting
+## Bug Reporting Standard
 
-All bugs will be logged and maintained in **Jira**, following this structure:
+All bugs are reported in Jira with the following structure:
 
-- **Summary**: Brief and descriptive
+- **Summary**: Clear and specific
 - **Description**:
   - Steps to Reproduce
   - Expected Result
   - Actual Result
-  - Severity and Priority
-- **Attachments**: Screenshots where applicable
-- **Labels**: E.g., `orangehrm`, `login`, `manual`, `ux`, etc.
+  - Severity & Priority
+- **Labels**: Example: `orangehrm`, `login`, `manual`, `ux`
+- **Attachments**: Screenshots when applicable
+- **Linked Test Case**: If caused by a failed test case (e.g., TC_Login_002)
 
 ---
 
 ## Execution Plan
 
-1. Create a **test plan and test cases** for Login functionality in Jira.
-2. Begin test execution in Jira. Track pass/fail and link bugs if found.
-3. For each bug encountered, create a bug report in Jira using the standard template.
-4. Continue to the next modules (Navigation, PIM, etc.) in the same structured approach.
-5. After each module, optionally add a brief reflection in Obsidian.
-6. After full coverage, summarize the QA cycle in this vault.
+1. Create detailed test cases in Jira, starting with the Login module.
+2. Document the same test case content in Obsidian under `/test-cases/`.
+3. Begin test execution in Jira and comment outcomes.
+4. Create bug issues for any failed test cases.
+5. Write one `.md` file per test case in Obsidian for backup/reference.
+6. Push documentation to GitHub after each module.
+7. Write an end-of-cycle summary in Obsidian.
 
 ---
 
@@ -104,24 +105,48 @@ All bugs will be logged and maintained in **Jira**, following this structure:
 | ----------------- | ---------------------------------------------------------------- |
 | Test Cases        | Jira Board: OrangeHRM QA                                         |
 | Bug Reports       | Jira Board: OrangeHRM QA                                         |
-| Summary Report    | `OrangeHRM/test-cycle-summary.md` (Obsidian)                     |
+| Test Case Docs    | `OrangeHRM/test-cases/TC_<ID>.md` (Obsidian + GitHub)            |
+| Summary Report    | `OrangeHRM/test-cycle-summary.md` (Obsidian + GitHub)            |
 | GitHub Repository | [https://github.com/demjrhan/QA](https://github.com/demjrhan/QA) |
 
 ---
 
-## Personal Notes (in this vault)
+## Personal Notes & Observations
 
-This vault is not used to duplicate Jira. It will serve as:
-- A **journal of test strategy decisions**
-- A place to track **lessons learned**
-- A place to write end-of-phase **retrospectives**
-- A reference for future projects or job interviews
+This vault does not duplicate test execution, but supports:
+- Documenting test case structure and logic
+- Recording small notes and observations
+- Writing summaries of what was tested and learned
 
 ---
 
-## Notes
+## Execution Result Format (for optional notes or GitHub export)
 
-- All test executions and defects are tracked in Jira.
-- No duplicate test case details will be maintained in this vault.
-- This vault is an internal companion to the structured Jira workflow and the public GitHub repository.
+#### `executed_passed
+`
+```
+[Execution Result] – PASSED  
+Tested on: Chrome v117  
+Outcome: User successfully redirected to Dashboard upon valid login.
+```
 
+#### `executed_failed`
+
+```
+[Execution Result] – FAILED  
+Issue: Error message not shown for invalid input.  
+Bug Reference: QA-ID
+```
+
+
+---
+
+## Test Case Example Folder Structure
+
+```
+/test-cases/  
+├── login/  
+│ ├── TC_Login_001.md  
+│ ├── TC_Login_002.md  
+│ └── ...
+```
