@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/login/TC_Login_002.md",
+                "file": "test-cases/login/TC_Login_003.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_Login_002"
+              "title": "TC_Login_003"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "89c0d3a82d1e60fd",
   "lastOpenFiles": [
-    "test-cases/login/TC_Login_001 - passed.md",
     "test-cases/login/TC_Login_002.md",
+    "test-cases/login/TC_Login_003.md",
+    "test-cases/login/TC_Login_001.md",
     "plan.md",
     "test-cycle-summary.md",
     "test-cases/login",

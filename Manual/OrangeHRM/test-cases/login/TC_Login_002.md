@@ -19,3 +19,7 @@ Verify that the system prevents access when incorrect login credentials are used
 
 **Expected Result**:  
 User should remain on the login page with an error message: “Invalid credentials”
+
+[Execution Result] – PASSED  
+Tested on: Chrome  
+Outcome: User successfully got “Invalid credentials” error message and stayed on the login page.

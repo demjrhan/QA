@@ -21,3 +21,7 @@ Verify that users can successfully log in using valid credentials.
 
 **Expected Result**:  
 User is redirected to the Dashboard page and login is successful.
+
+[Execution Result] – PASSED  
+Tested on: Chrome  
+Outcome: User successfully redirected to Dashboard upon valid login.
