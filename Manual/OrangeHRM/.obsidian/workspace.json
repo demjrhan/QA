@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "720ce484b8bc62b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "83b9c03df5123358",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89c0d3a82d1e60fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9f857279f69e2cc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b1cc2b96517b0a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e71a5f6fe7cff236",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "48dc6c826e421caf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1611753b7b289250",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae127aab4553cd84",
+    "type": "split",
+    "children": [
+      {
+        "id": "686fd85e357422ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f82635ff194917e5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "plan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for plan"
+            }
+          },
+          {
+            "id": "367cd31caa4bd723",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "plan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from plan"
+            }
+          },
+          {
+            "id": "d7578530fc7fe814",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "224b6bde635700be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "plan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "89c0d3a82d1e60fd",
+  "lastOpenFiles": [
+    "test-cycle-summary.md",
+    "plan.md",
+    "test-cases/login-tests.md",
+    "Test Cases/Add Employee Tests.md",
+    "Repository.md",
+    "Test.md",
+    "bug-reports/login-001.md",
+    "Test Cases/Navigation Tests.md",
+    "bug-reports",
+    "test-cases",
+    "Login",
+    "Welcome.md"
+  ]
+}
