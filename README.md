@@ -1,5 +1,7 @@
 # Manual QA Learning – OrangeHRM
 
+![GitHub](https://img.shields.io/badge/git-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Obsidian](https://img.shields.io/badge/obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white) ![Jira](https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
 This branch documents my manual QA practice using the OrangeHRM demo application. The goal is to simulate a real-world QA workflow, including test case design, execution, and defect reporting.
 
 ---
