@@ -168,11 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89c0d3a82d1e60fd",
+  "active": "e71a5f6fe7cff236",
   "lastOpenFiles": [
-    "test-cases/login/TC_Login-001.md",
     "plan.md",
     "test-cycle-summary.md",
+    "test-cases/login/TC_Login-001 - passed.md",
     "test-cases/login",
     "Untitled",
     "test-cases",

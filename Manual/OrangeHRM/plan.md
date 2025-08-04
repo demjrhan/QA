@@ -120,13 +120,13 @@ This vault does not duplicate test execution, but supports:
 
 ---
 
-## Execution Result Format (for optional notes or GitHub export)
+## Execution Result Format 
 
 #### `executed_passed
 `
 ```
 [Execution Result] – PASSED  
-Tested on: Chrome v117  
+Tested on: Chrome 
 Outcome: User successfully redirected to Dashboard upon valid login.
 ```
 
@@ -138,6 +138,69 @@ Issue: Error message not shown for invalid input.
 Bug Reference: QA-ID
 ```
 
+#### `test case entry example`
+
+```
+**Test Case ID**: TC_Login_001  
+**Title**: Valid login with correct credentials
+
+**Module**: Login Page
+
+**Objective**:  
+Verify that users can successfully log in using valid credentials.
+
+**Preconditions**:  
+- User is on the OrangeHRM login page
+- Demo credentials are available
+
+**Test Steps**:
+1. Enter username: `Admin`
+2. Enter password: `admin123`
+3. Click the "Login" button
+
+**Expected Result**:  
+User is redirected to the Dashboard page and login is successful.
+
+**Labels**: `testcase`, `manual`, `login`
+
+```
+#### `bug report example`
+
+```
+**Bug ID**: QA-Login-001  
+**Title**: [BUG] No error message when logging in with invalid username
+
+**Reported by**: Demirhan Yalcin  
+**Date**: 2025-08-04  
+**Related Test Case**: TC_Login_001
+
+**Environment**:
+- Browser: Chrome
+- OS: Windows 11
+
+---
+
+### Description
+
+**Steps to Reproduce:**
+1. Open the login page
+2. Enter username: `WrongUser`
+3. Enter password: `admin123`
+4. Click the "Login" button
+
+**Expected Result:**  
+System should display an error message: “Invalid credentials”
+
+**Actual Result:**  
+No message appears; page reloads silently
+
+**Impact:**  
+The user is not informed why login failed, affecting usability and error handling.
+
+**Attachments**:  
+- Screenshot: `invalid-login-no-error.png`
+
+```
 
 ---
 
