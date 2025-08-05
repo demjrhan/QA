@@ -1,7 +1,7 @@
 **Module**: Login Page
 
 **Objective**:  
-Check if password input is case-sensitive.
+Verify the system resists SQL injection in the username field.
 
 **Preconditions**:
 
@@ -10,9 +10,9 @@ Check if password input is case-sensitive.
 
 **Test Steps**:
 
-1. Enter username: Admin
+1. Enter username: `"' OR '1' ='1"`
     
-2. Enter password: ADMIN123
+2. Enter password: random
     
 3. Click the "Login" button
     
