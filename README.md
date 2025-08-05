@@ -6,6 +6,9 @@
 
 This repository’s branches illustrate my QA learning path. Currently I’m focusing on manual testing with OrangeHRM before progressing to automation with Selenium and Java. Each phase is organized, documented, and versioned for clarity and growth.
 
+Please open the Notes folder in Obsidian app to unlock its full potential.
+
+
 ---
 
 ## Learning Plan
