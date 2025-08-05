@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/dashboard-navigation/TC_DaN_005.md",
+                "file": "plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_DaN_005"
+              "title": "plan"
             }
           },
           {
@@ -184,8 +184,8 @@
   },
   "active": "89c0d3a82d1e60fd",
   "lastOpenFiles": [
-    "test-cases/dashboard-navigation/TC_DaN_004.md",
     "test-cases/dashboard-navigation/TC_DaN_005.md",
+    "test-cases/dashboard-navigation/TC_DaN_004.md",
     "test-cases/dashboard-navigation/TC_DaN_003.md",
     "test-cases/dashboard-navigation/TC_DaN_002.md",
     "plan.md",
