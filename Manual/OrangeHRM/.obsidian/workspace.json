@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/login/TC_Login_004.md",
+                "file": "bugs/login/BUG_Login_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_Login_004"
+              "title": "BUG_Login_001"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/login/TC_Login_009.md",
+                "file": "test-cases/dashboard-navigation/TC_DaN_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_Login_009"
+              "title": "TC_DaN_001"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,19 +182,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "093132fbc6123a15",
+  "active": "e71a5f6fe7cff236",
   "lastOpenFiles": [
-    "test-cases/login/TC_Login_008.md",
-    "test-cases/login/TC_Login_009.md",
-    "test-cases/login/TC_Login_007.md",
-    "test-cases/login/TC_Login_001.md",
-    "test-cases/login/TC_Login_006.md",
-    "test-cases/login/TC_Login_005.md",
+    "bugs/login/BUG_Login_001.md",
+    "test-cases/dashboard-navigation/TC_DaN_001.md",
+    "bugs/dashboard-navigation/BUG_DaN_001.md",
+    "bugs/dashboard-navigation",
+    "test-cases/dashboard-navigation/Untitled.md",
+    "plan.md",
     "test-cases/login/TC_Login_004.md",
+    "test-cases/login/TC_Login_009.md",
+    "test-cases/dashboard-navigation.md",
+    "test-cases/dashboard-navigation",
+    "test-cases/login/TC_Login_006.md",
+    "test-cases/login/TC_Login_007.md",
+    "test-cases/login/TC_Login_008.md",
+    "test-cases/login/TC_Login_001.md",
+    "test-cases/login/TC_Login_005.md",
     "test-cases/login/TC_Login_002.md",
     "test-cases/login/TC_Login_003.md",
-    "plan.md",
-    "bugs/login/BUG_Login_001.md",
     "bugs/login",
     "bugs",
     "test-cycle-summary.md",
@@ -213,7 +218,6 @@
     "Test Cases/Navigation Tests.md",
     "bug-reports",
     "test-cases",
-    "Login",
     "Welcome.md"
   ]
 }
