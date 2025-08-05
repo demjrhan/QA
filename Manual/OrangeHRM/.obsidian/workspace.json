@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bugs/login/BUG_Login_001.md",
+                "file": "test-cases/dashboard-navigation/TC_DaN_002.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUG_Login_001"
+              "title": "TC_DaN_002"
             }
           },
           {
@@ -182,14 +182,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e71a5f6fe7cff236",
+  "active": "89c0d3a82d1e60fd",
   "lastOpenFiles": [
-    "bugs/dashboard-navigation/BUG_DaN_001.md",
+    "plan.md",
+    "test-cases/dashboard-navigation/TC_DaN_002.md",
     "bugs/login/BUG_Login_001.md",
+    "bugs/dashboard-navigation/BUG_DaN_001.md",
     "test-cases/dashboard-navigation/TC_DaN_001.md",
     "bugs/dashboard-navigation",
-    "test-cases/dashboard-navigation/Untitled.md",
-    "plan.md",
     "test-cases/login/TC_Login_004.md",
     "test-cases/login/TC_Login_009.md",
     "test-cases/dashboard-navigation.md",
