@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/login/TC_Login_008.md",
+                "file": "test-cases/login/TC_Login_009.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_Login_008"
+              "title": "TC_Login_009"
             }
           }
         ],
@@ -185,8 +185,9 @@
   },
   "active": "093132fbc6123a15",
   "lastOpenFiles": [
-    "test-cases/login/TC_Login_007.md",
     "test-cases/login/TC_Login_008.md",
+    "test-cases/login/TC_Login_009.md",
+    "test-cases/login/TC_Login_007.md",
     "test-cases/login/TC_Login_001.md",
     "test-cases/login/TC_Login_006.md",
     "test-cases/login/TC_Login_005.md",
