@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f4f03d8-541e-4e17-955c-1147ee165bc7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DemoQA/pages/FormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DemoQA/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/JavaScriptUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQA/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQA/tests/javascript/JavaScriptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/pages/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SauceDemo/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SauceDemo/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SauceDemo/tests/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SauceDemo/tests/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SauceDemo/tests/products/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SauceDemo/tests/products/ProductsTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;demjrhan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/demjrhan/QA&quot;,
+    &quot;accountId&quot;: &quot;72f74ffd-b979-47cc-bc2d-1c5718ef24e1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="30urMciWP4Fnt501kZOZUypB0JF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.JavaScriptTest.executor": "Run",
+    "TestNG.JavaScriptTest.testScrollingToElement.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.testLoginErrorMessage.executor": "Run",
+    "TestNG.LoginTest.testPasswordCaseSensitivity.executor": "Run",
+    "TestNG.LoginTest.testPasswordFieldEmpty.executor": "Run",
+    "TestNG.LoginTest.testPasswordFieldIncorrect.executor": "Run",
+    "TestNG.LoginTest.testUsernameCaseSensitivity.executor": "Run",
+    "TestNG.LoginTest.testUsernameFieldEmpty.executor": "Run",
+    "TestNG.LoginTest.testUsernameFieldIncorrect.executor": "Run",
+    "TestNG.ProductsTest.executor": "Run",
+    "TestNG.ProductsTest.testProductsHeaderDisplayed.executor": "Run",
+    "git-widget-placeholder": "Selenium",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DemoQA.pages" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.JavaScriptTest">
+    <configuration name="JavaScriptTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoQA.tests.javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DemoQA.tests.javascript" />
+      <option name="MAIN_CLASS_NAME" value="DemoQA.tests.javascript.JavaScriptTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptTest.testScrollingToElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoQA.tests.javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DemoQA.tests.javascript" />
+      <option name="MAIN_CLASS_NAME" value="DemoQA.tests.javascript.JavaScriptTest" />
+      <option name="METHOD_NAME" value="testScrollingToElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SauceDemo.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SauceDemo.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="SauceDemo.tests.login.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testLoginErrorMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SauceDemo.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SauceDemo.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="SauceDemo.tests.login.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginErrorMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SauceDemo.tests.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SauceDemo.tests.products" />
+      <option name="MAIN_CLASS_NAME" value="SauceDemo.tests.products.ProductsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.JavaScriptTest" />
+        <item itemvalue="TestNG.JavaScriptTest.testScrollingToElement" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.ProductsTest" />
+        <item itemvalue="TestNG.LoginTest.testLoginErrorMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f4f03d8-541e-4e17-955c-1147ee165bc7" name="Changes" comment="" />
+      <created>1754488252270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754488252270</updated>
+      <workItem from="1754488253469" duration="5579000" />
+      <workItem from="1754500003363" duration="3841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

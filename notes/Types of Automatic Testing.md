@@ -1,6 +1,6 @@
 ### Smoke testing
 
-Smoke tests are basic tests that check the basic functionality of an application. They are meant to be quick to execute, and their goal is to give you the assurance that the major features of your system are working as expected.
+Smoke tests are basic tests that check the basic functionality of an application. They are meant to be quick to execute, and their goal is to give you the assurance that the major features of your system are working as expected. It’s often used in **CI/CD pipelines** after a build.
 
 Smoke tests can be useful right after a new build is made to decide whether or not you can run more expensive tests, or right after a deployment to make sure that they application is running properly in the newly deployed environment.
 
@@ -8,12 +8,12 @@ Smoke tests can be useful right after a new build is made to decide whether or n
 
 Regression tests are repeatable tests that check whether existing functionality still works after changes in the codebase, such as bug fixes, feature updates, or refactors. Their purpose is to catch unexpected side effects introduced by recent changes.
 
-Regression testing is typically run after any change to ensure the overall system behavior remains consistent. It helps confirm that new work hasn't broken previously working features.
+Regression testing is typically run after any change to ensure the overall system behavior remains consistent. It helps confirm that new work hasn't broken previously working features. Regression tests are usually part of the **automation suite** and tagged in test plans.
 
 
 ### Unit Tests
 
-They consist in testing individual methods and functions of the classes, components, or modules used by your software. Unit tests are generally quite cheap to automate and can run very quickly by a continuous integration server.
+They consist in testing individual methods and functions of the classes, components, or modules used by your software. Unit tests are generally quite cheap to automate and can run very quickly by a continuous integration server. Unit tests should be written by **developers**, not QA testers.
 
 ### Integration Tests
 
@@ -43,3 +43,7 @@ Tests how the system performs beyond its limits. Extreme amount of visitors can 
 ### Retesting
 
 Retesting is the process of testing a **specific failed test case again** after a bug fix or code correction to confirm that the issue has been resolved.
+
+### API Testing
+
+Using tools like **Postman**, **RestAssured**, or **SOAP UI** to test backend logic directly.
