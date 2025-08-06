@@ -6,19 +6,26 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage extends BasePage {
     private By username = By.id("user-name");
     private By password = By.id("password");
-    private By errorMessage = By.xpath("#login_button_container h3");
+    private By errorMessage = By.cssSelector("#login_button_container h3");
     private By loginButton = By.id("login-button");
 
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
+
     public void setUsername(String username) {
-        type(this.username,username);
+        type(this.username, username);
     }
+
     public void setPassword(String password) {
-        type(this.password,password);
+        type(this.password, password);
     }
+
     public ProductsPage clickLoginButton() {
         click(this.loginButton);
-        return new ProductsPage();
+        return new ProductsPage(driver);
     }
+
     public ProductsPage login(String username, String password) {
         setUsername(username);
         setPassword(password);
