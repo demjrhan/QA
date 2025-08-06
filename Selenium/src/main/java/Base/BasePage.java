@@ -1,22 +1,14 @@
-package pages;
+package Base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class BasePage {
-    protected WebDriver driver;
-
-    public BasePage(WebDriver driver) {
-        this.driver = driver;
-    }
+    public static WebDriver driver;
 
     public void setDriver(WebDriver driver) {
-        this.driver = driver;
-    }
-
-    public WebDriver getDriver() {
-        return driver;
+        BasePage.driver = driver;
     }
 
     protected WebElement find(By locator) {
@@ -30,5 +22,13 @@ public class BasePage {
 
     protected void click(By locator) {
         find(locator).click();
+    }
+
+    public static void delay(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

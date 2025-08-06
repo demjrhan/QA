@@ -1,17 +1,13 @@
-package pages;
+package SauceDemo.pages;
 
+import Base.BasePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
     private By username = By.id("user-name");
     private By password = By.id("password");
     private By errorMessage = By.cssSelector("#login_button_container h3");
     private By loginButton = By.id("login-button");
-
-    public LoginPage(WebDriver driver) {
-        super(driver);
-    }
 
     public void setUsername(String username) {
         type(this.username, username);
@@ -23,7 +19,7 @@ public class LoginPage extends BasePage {
 
     public ProductsPage clickLoginButton() {
         click(this.loginButton);
-        return new ProductsPage(driver);
+        return new ProductsPage();
     }
 
     public ProductsPage login(String username, String password) {
