@@ -11,7 +11,7 @@ public class ProductsPage extends BasePage {
         super(driver);
     }
 
-    public boolean ProductsPageIsDisplayed() {
+    public boolean isProductsHeaderDisplayed() {
         return find(productsHeader).isDisplayed();
     }
 
