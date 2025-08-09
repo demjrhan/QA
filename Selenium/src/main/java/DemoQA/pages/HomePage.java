@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
         scrollToElementJS(formsCard);
         click(formsCard);
         return new FormsPage();
-
-
     }
+
+
 }

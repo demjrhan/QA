@@ -9,4 +9,5 @@ public class JavaScriptTest extends BaseTest {
     public void testScrollingToElement() {
         homePage.goToForms();
     }
+
 }
