@@ -28,8 +28,8 @@ public class BaseTest {
         homePage = new HomePage(driver);
     }
 
-    @AfterMethod
+   /* @AfterMethod
     public void tearDown() {
         if (driver != null) driver.quit();
-    }
+    }*/
 }
