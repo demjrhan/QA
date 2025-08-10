@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
+
     @Test
     public void testLoginPageLoad() {
 
@@ -18,6 +19,15 @@ public class LoginTest extends BaseTest {
         var loginPage = homePage.clickLoginButton();
         Assert.assertTrue(driver.getTitle().contains("Sign in") || driver.getTitle().contains("Log in"), "Should be on Login page");
         loginPage.clickSignUpButton();
-        Assert.assertTrue(driver.getTitle().contains("Registration") || driver.getTitle().contains("Register") || driver.getTitle().contains("Sign Up"), "Should be on Login page");
+        Assert.assertTrue(driver.getTitle().contains("Registration") || driver.getTitle().contains("Register") || driver.getTitle().contains("Sign Up"), "Should be on Sign Up page");
+    }
+
+    @Test
+    public void testResetPasswordPageRedirect() {
+        var loginPage = homePage.clickLoginButton();
+        Assert.assertTrue(driver.getTitle().contains("Sign in") || driver.getTitle().contains("Log in"), "Should be on Login page");
+        loginPage.clickResetPasswordButton();
+        Assert.assertTrue(driver.getTitle().contains("Reset") || driver.getTitle().contains("Password"), "Should be on Reset Password page");
+
     }
 }
