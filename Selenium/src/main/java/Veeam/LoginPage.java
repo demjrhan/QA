@@ -22,4 +22,5 @@ public class LoginPage extends BasePage {
     public void clickDataCloudLoginButton() {
         click(dataCloudLoginButton);
     }
+
 }

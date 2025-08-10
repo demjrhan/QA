@@ -2,8 +2,12 @@ package Veeam;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class LoginTest extends BaseTest {
 
@@ -41,5 +45,19 @@ public class LoginTest extends BaseTest {
         WebElement errorContainer = driver.findElement(By.id("error-password"));
         Assert.assertFalse(errorContainer.getText().isEmpty(), "Errors should contain both email and password errors.");
     }
+
+
+    // I dont know how to verify if something visible at page.
+    /*@Test
+    public void testClickingBookMeetingWorks() {
+        homePage.clickBookMeetingButton();
+        By bookMeetingPopup = By.xpath("//h2[text()='Let’s get you booked!']");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(bookMeetingPopup));
+        var result = driver.findElement(bookMeetingPopup).isDisplayed();
+        Assert.assertTrue(result, "Meeting popup should be visible");
+
+    }*/
+
 
 }

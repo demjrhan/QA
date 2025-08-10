@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import static utilities.Utility.setUtilityDriver;
+
 public class BaseTest {
     
     protected WebDriver driver;
@@ -25,14 +27,9 @@ public class BaseTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         
-        // Create WebDriver instance
         driver = new ChromeDriver(options);
-        
-        // Set the driver in BasePage
         BasePage basePage = new BasePage();
         basePage.setDriver(driver);
-        
-        // Initialize page objects
         homePage = new HomePage();
     }
     
