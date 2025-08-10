@@ -1,5 +1,7 @@
 package Veeam;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -28,6 +30,16 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(driver.getTitle().contains("Sign in") || driver.getTitle().contains("Log in"), "Should be on Login page");
         loginPage.clickResetPasswordButton();
         Assert.assertTrue(driver.getTitle().contains("Reset") || driver.getTitle().contains("Password"), "Should be on Reset Password page");
-
     }
+
+    @Test
+    public void testClickingLoginButtonWithEmptyCredentials() {
+        var loginPage = homePage.clickLoginButton();
+        Assert.assertTrue(driver.getTitle().contains("Sign in") || driver.getTitle().contains("Log in"), "Should be on Login page");
+        loginPage.clickAccountLoginButton();
+        Assert.assertTrue(driver.getTitle().contains("Sign in") || driver.getTitle().contains("Log in"), "Should stay on Login page with empty credentials.");
+        WebElement errorContainer = driver.findElement(By.id("error-password"));
+        Assert.assertFalse(errorContainer.getText().isEmpty(), "Errors should contain both email and password errors.");
+    }
+
 }
