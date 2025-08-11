@@ -9,6 +9,8 @@ public class ShoppingCartPage extends BasePageEnchanted {
     private final By zaraLogo = By.xpath("//a[@class='layout-header-logo__link']");
     private final By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
     private final By shoppingCartId = By.xpath("//*[@id='shopCartView']");
+    private final By homePageId = By.xpath("//*[@id='I2024-HOME']");
+
 
     public ShoppingCartPage(WebDriver driver) {
         super(driver);
@@ -30,6 +32,7 @@ public class ShoppingCartPage extends BasePageEnchanted {
 
     public HomePage goHomePage() {
         click(zaraLogo);
+        waitForPageToLoad(homePageId);
         return new HomePage(driver);
     }
 
@@ -38,8 +41,10 @@ public class ShoppingCartPage extends BasePageEnchanted {
         return this;
     }
 
-    public String waitForTitleContains(String title) {
-        return super.waitForTitleContains(title);
+    public void waitForTitleContains(String title) {
+         super.waitForTitleContains(title);
     }
-
+    protected void waitForPageToLoad(By locator) {
+        super.waitForPageToLoad(locator);
+    }
 }

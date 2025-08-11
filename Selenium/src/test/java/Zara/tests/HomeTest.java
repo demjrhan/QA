@@ -11,6 +11,25 @@ public class HomeTest extends BaseTest {
     private final By searchInput = By.id("search-home-form-combo-input");
     private final By searchedItemList = By.xpath("//ul[@id='search-home-form-combo-menu']");
     private final By shoppingCart = By.xpath("//a[@data-qa-id='layout-header-go-to-cart']");
+    private final By zaraLogo = By.xpath("//a[@data-qa-action='logo-click']");
+
+    @Test
+    public void testZaraHomeButtonShouldBringHomePage() {
+        var home = homePage.open().acceptCookiesIfPresent();
+        Assert.assertTrue(home.atHomePage(), "Should be at home page.");
+        var newPage = home.clickLogo();
+        Assert.assertTrue(newPage.atHomePage(), "Should stay at home page.");
+    }
+
+    @Test
+    public void testZaraHomeButtonConsistency() {
+        var home = homePage.open().acceptCookiesIfPresent();
+        Assert.assertTrue(home.atHomePage(), "Should be at home page.");
+        for (int i = 0 ; i < 25 ; i++) {
+            home = home.clickLogo();
+        }
+        Assert.assertTrue(home.atHomePage(), "Should stay at home page.");
+    }
 
     @Test
     public void testSearchTriggerIsVisibleOnLoadHomePage() {
@@ -75,6 +94,14 @@ public class HomeTest extends BaseTest {
         Assert.assertTrue(cart.atShoppingCartPage(), "Shopping cart should be opened.");
         var home = cart.goHomePage();
         Assert.assertTrue(home.atHomePage(), "Should open home page.");
+    }
+
+    @Test
+    public void testAfterOpeningShoppingCartGoingBackHomePageConsistency(){
+        for (int i = 0 ; i < 5 ; i++) {
+            var result = homePage.open().acceptCookiesIfPresent().goToShoppingCartPage().goHomePage();
+            Assert.assertTrue(result.atHomePage(), "Should open home page.");
+        }
     }
 
 

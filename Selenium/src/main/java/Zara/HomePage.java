@@ -4,6 +4,7 @@ import Base.BasePageEnchanted;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public class HomePage extends BasePageEnchanted {
     private final By shoppingCart = By.xpath("//a[@data-qa-id='layout-header-go-to-cart']");
     private final By zaraLogo = By.xpath("//a[@data-qa-action='logo-click']");
     private final By homePageId = By.xpath("//*[@id='I2024-HOME']");
+    private final By shoppingCartId = By.xpath("//*[@id='shopCartView']");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -20,6 +22,11 @@ public class HomePage extends BasePageEnchanted {
 
     public HomePage open() {
         driver.get("https://www.zara.com/pl/en/");
+        return this;
+    }
+
+    public HomePage clickLogo() {
+        clickField(zaraLogo);
         return this;
     }
 
@@ -34,6 +41,7 @@ public class HomePage extends BasePageEnchanted {
 
     public ShoppingCartPage goToShoppingCartPage() {
         click(shoppingCart);
+        waitForPageToLoad(shoppingCartId);
         return new ShoppingCartPage(driver);
     }
 
@@ -70,7 +78,11 @@ public class HomePage extends BasePageEnchanted {
         return super.isClickable(locator);
     }
 
-    public String waitForTitleContains(String title) {
-        return super.waitForTitleContains(title);
+    public void waitForTitleContains(String title) {
+        super.waitForTitleContains(title);
+    }
+
+    protected void waitForPageToLoad(By locator) {
+        super.waitForPageToLoad(locator);
     }
 }

@@ -90,9 +90,15 @@ public class BasePageEnchanted {
             return false;
         }
     }
+    protected void refresh() {
+        driver.navigate().refresh();
+    }
 
-    protected String waitForTitleContains(String partialTitle) {
+    protected void waitForTitleContains(String partialTitle) {
         wait.until(ExpectedConditions.titleContains(partialTitle));
-        return driver.getTitle();
+    }
+
+    protected void waitForPageToLoad(By locator) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 }
