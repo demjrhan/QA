@@ -2,6 +2,7 @@ package Zara.tests;
 
 import Zara.base.BaseTest;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ShoppingCartTest extends BaseTest {
@@ -10,6 +11,7 @@ public class ShoppingCartTest extends BaseTest {
 
     @Test
     public void testAddItemToShoppingCart() {
-
+        var cart = shoppingCart.open().acceptCookiesIfPresent();
+        Assert.assertTrue(cart.atShoppingCartPage(), "Shopping cart should be opened.");
     }
 }

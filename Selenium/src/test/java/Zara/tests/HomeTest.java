@@ -66,17 +66,16 @@ public class HomeTest extends BaseTest {
     @Test
     public void testClickingOnShoppingCartButtonBringsShoppingCartPage() {
         var cart = homePage.open().acceptCookiesIfPresent().goToShoppingCartPage();
-        var title = cart.waitForTitleContains("Cart");
-        Assert.assertTrue(title.contains("Cart"), "Shopping cart should be opened.");
+        Assert.assertTrue(cart.atShoppingCartPage(), "Shopping cart should be opened.");
+
     }
     @Test
     public void testAfterOpeningShoppingCartZaraLogoShouldBringHomePage(){
-        var shoppingCart = homePage.open().acceptCookiesIfPresent().goToShoppingCartPage();
-        var shoppingCartTitle = shoppingCart.waitForTitleContains("Cart");
-        Assert.assertTrue(shoppingCartTitle.contains("Cart"), "Shopping cart should be opened.");
-        var home = shoppingCart.goHomePage();
-        var homeTitle = home.waitForTitleContains("ZARA");
-        Assert.assertTrue(homeTitle.contains("ZARA"), "Home page should be opened.");
+        var cart = homePage.open().acceptCookiesIfPresent().goToShoppingCartPage();
+        Assert.assertTrue(cart.atShoppingCartPage(), "Shopping cart should be opened.");
+        var home = cart.goHomePage();
+        Assert.assertTrue(home.atHomePage(), "Should open home page.");
     }
+
 
 }

@@ -62,7 +62,6 @@ public class BasePageEnchanted {
         }
     }
 
-
     /*
         Checks: The element exists in the DOM, regardless of whether it’s visible. */
 

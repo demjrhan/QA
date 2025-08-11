@@ -12,7 +12,7 @@ public class HomePage extends BasePageEnchanted {
     private final By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
     private final By shoppingCart = By.xpath("//a[@data-qa-id='layout-header-go-to-cart']");
     private final By zaraLogo = By.xpath("//a[@data-qa-action='logo-click']");
-
+    private final By homePageId = By.xpath("//*[@id='I2024-HOME']");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -23,14 +23,18 @@ public class HomePage extends BasePageEnchanted {
         return this;
     }
 
+    public boolean atHomePage() {
+        return isVisible(homePageId);
+    }
+
     public HomePage clickField(By locator) {
         click(locator);
         return this;
     }
 
-    public ShoppingCart goToShoppingCartPage() {
+    public ShoppingCartPage goToShoppingCartPage() {
         click(shoppingCart);
-        return new ShoppingCart(driver);
+        return new ShoppingCartPage(driver);
     }
 
     public List<WebElement> findAll(By locator) {
