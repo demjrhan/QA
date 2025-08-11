@@ -3,12 +3,6 @@
 ![Maven](https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Postman](https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 
-
-This repository’s branches illustrate my QA learning path. Currently I’m focusing on manual testing with OrangeHRM before progressing to automation with Selenium and Java. Each phase is organized, documented, and versioned for clarity and growth.
-
-Please open the Notes folder in Obsidian app to unlock its full potential.
-
-
 ---
 
 ## Learning Plan
