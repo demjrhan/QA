@@ -3,10 +3,16 @@ package Zara;
 import Base.BasePageEnchanted;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class HomePage extends BasePageEnchanted {
 
     private final By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
+    private final By shoppingCart = By.xpath("//a[@data-qa-id='layout-header-go-to-cart']");
+    private final By zaraLogo = By.xpath("//a[@data-qa-action='logo-click']");
+
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -20,6 +26,15 @@ public class HomePage extends BasePageEnchanted {
     public HomePage clickField(By locator) {
         click(locator);
         return this;
+    }
+
+    public ShoppingCart goToShoppingCartPage() {
+        click(shoppingCart);
+        return new ShoppingCart(driver);
+    }
+
+    public List<WebElement> findAll(By locator) {
+        return super.findAll(locator);
     }
 
     public void type(By locator, String text) {
@@ -39,7 +54,6 @@ public class HomePage extends BasePageEnchanted {
         return super.isNotVisible(locator);
     }
 
-
     public boolean isPresent(By locator) {
         return super.isPresent(locator);
     }
@@ -50,5 +64,9 @@ public class HomePage extends BasePageEnchanted {
 
     public boolean isClickable(By locator) {
         return super.isClickable(locator);
+    }
+
+    public String waitForTitleContains(String title) {
+        return super.waitForTitleContains(title);
     }
 }

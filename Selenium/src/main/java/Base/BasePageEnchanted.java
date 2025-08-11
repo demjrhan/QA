@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 public class BasePageEnchanted {
     protected final WebDriver driver;
@@ -27,6 +26,7 @@ public class BasePageEnchanted {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    //        driver.findElements(locator);
     protected List<WebElement> findAll(By locator) {
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
@@ -92,8 +92,7 @@ public class BasePageEnchanted {
         }
     }
 
-
-    public String title(String partialTitle) {
+    protected String waitForTitleContains(String partialTitle) {
         wait.until(ExpectedConditions.titleContains(partialTitle));
         return driver.getTitle();
     }
