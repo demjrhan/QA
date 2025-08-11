@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class BasePageEnchanted {
     protected final WebDriver driver;
@@ -38,7 +39,10 @@ public class BasePageEnchanted {
         WebElement el = find(locator);
         el.clear();
         el.sendKeys(text);
+        wait.until(ExpectedConditions.attributeToBeNotEmpty(el, "value"));
     }
+
+    /* Checks: Element is in the DOM and visible (display != none and opacity != 0 and has size > 0).  */
 
     protected boolean isVisible(By locator) {
         try {
@@ -47,6 +51,47 @@ public class BasePageEnchanted {
             return false;
         }
     }
+
+    /* Checks: Element is in the DOM and invisible (display == none and opacity == 0 and has size <= 0).  */
+
+    protected boolean isNotVisible(By locator) {
+        try {
+            return wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
+
+    /*
+        Checks: The element exists in the DOM, regardless of whether it’s visible. */
+
+    protected boolean isPresent(By locator) {
+        try {
+            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
+    protected boolean isEmpty(By locator) {
+        WebElement el = find(locator);
+        String value = el.getTagName().equalsIgnoreCase("input") || el.getTagName().equalsIgnoreCase("textarea")
+                ? el.getAttribute("value")
+                : el.getText();
+        return value == null || value.isEmpty();
+    }
+
+    protected boolean isClickable(By locator) {
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(locator));
+            return true;
+        } catch (TimeoutException e) {
+            return false;
+        }
+    }
+
 
     public String title(String partialTitle) {
         wait.until(ExpectedConditions.titleContains(partialTitle));

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage extends BasePageEnchanted {
 
-    protected By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
+    private final By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -22,9 +22,8 @@ public class HomePage extends BasePageEnchanted {
         return this;
     }
 
-    public HomePage typeToField(By locator, String text) {
-        type(locator, text);
-        return this;
+    public void type(By locator, String text) {
+        super.type(locator, text);
     }
 
     public HomePage acceptCookiesIfPresent() {
@@ -32,4 +31,24 @@ public class HomePage extends BasePageEnchanted {
         return this;
     }
 
+    public boolean isVisible(By locator) {
+        return super.isVisible(locator);
+    }
+
+    public boolean isNotVisible(By locator) {
+        return super.isNotVisible(locator);
+    }
+
+
+    public boolean isPresent(By locator) {
+        return super.isPresent(locator);
+    }
+
+    public boolean isEmpty(By locator) {
+        return super.isEmpty(locator);
+    }
+
+    public boolean isClickable(By locator) {
+        return super.isClickable(locator);
+    }
 }
