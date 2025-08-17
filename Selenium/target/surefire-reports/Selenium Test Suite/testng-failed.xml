@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Learning Tests(failed)" verbose="0">
+    <classes>
+      <class name="Learning.BasicTest">
+        <methods>
+          <include name="testGoogleSearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Learning.BasicTest -->
+    </classes>
+  </test> <!-- Learning Tests(failed) -->
+</suite> <!-- Failed suite [Selenium Test Suite] -->

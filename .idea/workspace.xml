@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfc44012-185c-4c5a-95b7-f5ac39aa9c85" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;demjrhan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/demjrhan/QA&quot;,
+    &quot;accountId&quot;: &quot;72f74ffd-b979-47cc-bc2d-1c5718ef24e1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30xtlktHYt6X56mcVeqxWuzl3gh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.BasicTest.testGoogleSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BasicTest.testPageLoad.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BasicTest.testSignUpPageRedirect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FillFieldTest.testFillField.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testAfterOpeningShoppingCartGoingBackHomePageConsistency.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testAfterOpeningShoppingCartZaraLogoShouldBringHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testAfterSearchItemListPopulates.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testAfterWriteRandomTextSearchFieldItemListDoesntPopulate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testClickSearchAndWrite.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testClickingOnShoppingCartButtonBringsShoppingCartPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testSearchTriggerClickableAfterSearchInputOpened.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testSearchTriggerIsVisibleOnLoadHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testShoppingCartShouldBeClickableOnLoadHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testShoppingCartShouldBeVisibleOnLoadHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testZaraHomeButtonShouldBringHomePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HomeTest.testZaraHomeButtonShouldBringHomePageStress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ItemTest.testGoingBackHome.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavaScriptTest.testClickToElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavaScriptTest.testScrollingToElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LearningCurve.typeAddress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testClickingBookMeetingWorks.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testClickingDataCloudLoginButtonWithEmptyCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testClickingLoginButtonEmptyCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testResetPasswordPageRedirect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testSignUpPageRedirect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtonTest.testClickToElement.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ShoppingCartTest.testAddItemToShoppingCart.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Selenium&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/demir/Documents/personal/QA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.HomeTest.testAfterOpeningShoppingCartGoingBackHomePageConsistency">
+    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zara.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zara.tests" />
+      <option name="MAIN_CLASS_NAME" value="Zara.tests.HomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testAfterOpeningShoppingCartGoingBackHomePageConsistency" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zara.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zara.tests" />
+      <option name="MAIN_CLASS_NAME" value="Zara.tests.HomeTest" />
+      <option name="METHOD_NAME" value="testAfterOpeningShoppingCartGoingBackHomePageConsistency" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testZaraHomeButtonShouldBringHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zara.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zara.tests" />
+      <option name="MAIN_CLASS_NAME" value="Zara.tests.HomeTest" />
+      <option name="METHOD_NAME" value="testZaraHomeButtonShouldBringHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.testZaraHomeButtonShouldBringHomePageStress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zara.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zara.tests" />
+      <option name="MAIN_CLASS_NAME" value="Zara.tests.HomeTest" />
+      <option name="METHOD_NAME" value="testZaraHomeButtonShouldBringHomePageStress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.testGoingBackHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zara.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Zara.tests" />
+      <option name="MAIN_CLASS_NAME" value="Zara.tests.ItemTest" />
+      <option name="METHOD_NAME" value="testGoingBackHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomeTest.testAfterOpeningShoppingCartGoingBackHomePageConsistency" />
+        <item itemvalue="TestNG.HomeTest.testZaraHomeButtonShouldBringHomePageStress" />
+        <item itemvalue="TestNG.HomeTest.testZaraHomeButtonShouldBringHomePage" />
+        <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.ItemTest.testGoingBackHome" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfc44012-185c-4c5a-95b7-f5ac39aa9c85" name="Changes" comment="" />
+      <created>1754581204904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754581204904</updated>
+      <workItem from="1754581205999" duration="1243000" />
+      <workItem from="1754596382273" duration="80000" />
+      <workItem from="1754617968987" duration="7000" />
+      <workItem from="1754691413583" duration="98000" />
+      <workItem from="1754741440958" duration="4000" />
+      <workItem from="1754756089065" duration="2944000" />
+      <workItem from="1754765074643" duration="330000" />
+      <workItem from="1754780827128" duration="5442000" />
+      <workItem from="1754843533620" duration="5720000" />
+      <workItem from="1754855481601" duration="4457000" />
+      <workItem from="1754859987623" duration="531000" />
+      <workItem from="1754866433748" duration="2206000" />
+      <workItem from="1754912547454" duration="7408000" />
+      <workItem from="1754920403713" duration="78000" />
+      <workItem from="1754920509357" duration="639000" />
+      <workItem from="1754923609994" duration="27000" />
+      <workItem from="1754923642069" duration="14000" />
+      <workItem from="1754923671068" duration="41000" />
+      <workItem from="1754923714896" duration="2975000" />
+      <workItem from="1754945842238" duration="3753000" />
+      <workItem from="1755416359617" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

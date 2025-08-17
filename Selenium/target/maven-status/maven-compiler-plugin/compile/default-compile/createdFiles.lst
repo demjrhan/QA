@@ -1,0 +1,10 @@
+DemoQA\pages\HomePage.class
+DemoQA\pages\PracticeFormPage.class
+SauceDemo\pages\ProductsPage.class
+SauceDemo\pages\LoginPage.class
+utilities\JavaScriptUtility.class
+KFC\pages\HomePage.class
+Base\BasePage.class
+DemoQA\pages\FormsPage.class
+utilities\Utility.class
+Learning\HomePage.class

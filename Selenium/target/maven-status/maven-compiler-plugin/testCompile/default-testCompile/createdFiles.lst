@@ -1,0 +1,13 @@
+Learning\BasicTest.class
+Learning\BaseTest.class
+DemoQA\base\BaseTest.class
+Learning\SimpleTest.class
+OrangeHRM\InitialTest.class
+SauceDemo\tests\products\ProductsTest.class
+KFC\tests\LearningCurve.class
+DemoQA\tests\field\FillFieldTest.class
+DemoQA\tests\button\RadioButtonTest.class
+KFC\base\BaseTest.class
+SauceDemo\base\BaseTest.class
+DemoQA\tests\javascript\JavaScriptTest.class
+SauceDemo\tests\login\LoginTest.class
