@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bugs/pim/BUG_Login_001.md",
+                "file": "bugs/pim/BUG_PIM_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BUG_Login_001"
+              "title": "BUG_PIM_001"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "89c0d3a82d1e60fd",
   "lastOpenFiles": [
+    "bugs/login/BUG_Login_001.md",
+    "bugs/pim/BUG_PIM_001.md",
     "bugs/dashboard-navigation/BUG_DaN_001.md",
-    "bugs/pim/BUG_Login_001.md",
     "bugs/pim",
     "test-cases/pim/TC_PIM_006.md",
-    "bugs/login/BUG_Login_001.md",
     "test-cases/pim/TC_PIM_005.md",
     "test-cases/pim/TC_PIM_004.md",
     "test-cases/pim/TC_PIM_003.md",
