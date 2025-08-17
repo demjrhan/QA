@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-cases/pim/TC_PIM_001.md",
+                "file": "bugs/pim/BUG_Login_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TC_PIM_001"
+              "title": "BUG_Login_001"
             }
           }
         ]
@@ -170,25 +170,27 @@
   },
   "active": "89c0d3a82d1e60fd",
   "lastOpenFiles": [
-    "test-cases/pim/TC_PIM_002.md",
-    "test-cases/pim/TC_PIM_003.md",
-    "test-cases/pim/TC_PIM_004.md",
+    "bugs/dashboard-navigation/BUG_DaN_001.md",
+    "bugs/pim/BUG_Login_001.md",
+    "bugs/pim",
     "test-cases/pim/TC_PIM_006.md",
+    "bugs/login/BUG_Login_001.md",
     "test-cases/pim/TC_PIM_005.md",
+    "test-cases/pim/TC_PIM_004.md",
+    "test-cases/pim/TC_PIM_003.md",
+    "test-cases/pim/TC_PIM_002.md",
+    "test-cases/pim/TC_PIM_001.md",
+    "plan.md",
     "test-cases/login/TC_Login_006.md",
     "test-cases/login/TC_Login_001.md",
     "test-cases/login/TC_Login_007.md",
-    "test-cases/pim/TC_PIM_001.md",
     "test-cases/dashboard-navigation/TC_DaN_001.md",
-    "plan.md",
     "test-cases/pim",
     "test-cases/login/TC_Login_005.md",
     "test-cases/dashboard-navigation/TC_DaN_004.md",
     "test-cases/dashboard-navigation/TC_DaN_002.md",
     "test-cases/dashboard-navigation/TC_DaN_005.md",
     "test-cases/dashboard-navigation/TC_DaN_003.md",
-    "bugs/login/BUG_Login_001.md",
-    "bugs/dashboard-navigation/BUG_DaN_001.md",
     "bugs/dashboard-navigation",
     "test-cases/login/TC_Login_004.md",
     "test-cases/login/TC_Login_009.md",
@@ -203,7 +205,6 @@
     "test-cases/login",
     "test-cases",
     "test-cases",
-    "images",
-    "bug-reports"
+    "images"
   ]
 }
