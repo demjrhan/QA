@@ -27,3 +27,4 @@ System should display an error message: “Cannot apply leave for past dates” 
 [Execution Result] – FAILED  
 Tested on: Chrome  
 Outcome: Leave was incorrectly submitted for past dates; no error message was displayed.
+Bug Reference: BUG_PIM_001
