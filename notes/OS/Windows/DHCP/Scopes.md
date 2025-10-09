@@ -1,0 +1,4 @@
+## Superscope 
+
+On a Windows DHCP server, a **superscope** is an administrative “container” that lets you group multiple distinct scopes (each for its own subnet) so that the DHCP service can respond to broadcast requests on a single physical network with addresses from any of those subnets. You typically use a superscope when you’ve carved out two or more subnets on one LAN segment—for example, when you’ve exhausted 10.0.0.0/24 and added 10.0.1.0/24—and you want the server to reply from both without adding another DHCP server or changing your physical topology. The DHCP server still matches the client’s network identifier to the correct scope, but because those scopes are in the same superscope, it can offer addresses across them seamlessly.
+## Multicast Scope (?)

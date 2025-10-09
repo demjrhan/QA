@@ -1,0 +1,1 @@
+Even though you reserve an Ip address for the station, if the reserved ip address is in excluding range of pool it will never be given in DHCPOffer even though the call got from that MAC address.

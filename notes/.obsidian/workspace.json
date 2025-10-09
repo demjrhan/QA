@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "1c829e7d4a326cde",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e89caabd06dd5f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "770d303960a53ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Types of Automatic Testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Types of Automatic Testing"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17e775528f84ded5",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2b045e8f662e523",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b75950c71621548f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8445f6af16b237e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cfc2ef88539dde6a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c30e9c37db330ef6",
+    "type": "split",
+    "children": [
+      {
+        "id": "73cb67cc31160d85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a35962f36cd10ded",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OS/Windows/DNS/Record Types.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Record Types"
+            }
+          },
+          {
+            "id": "c7b4486ec76b69fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OS/Windows/DNS/Record Types.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Record Types"
+            }
+          },
+          {
+            "id": "d5734e8271549589",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7c8c10f88a79ea1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OS/Windows/DNS/Record Types.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Record Types"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "770d303960a53ed5",
+  "lastOpenFiles": [
+    "Types of Manual Testing.md",
+    "OS/Windows/DNS/Forwarders.md",
+    "OS/Windows/DNS/Resolving Domain Name.md",
+    "OS/Windows/DNS/Zone Transfer.md",
+    "OS/Windows/Communication.md",
+    "OS/Windows/IP Address.md",
+    "OS/Windows/MAC address.md",
+    "OS/Windows/Network Types.md",
+    "images/Pasted image 20250615172310.png",
+    "images/Pasted image 20250616134708.png",
+    "images/Pasted image 20250615215236.png",
+    "images/Pasted image 20250615173135.png",
+    "images/Pasted image 20250615172814.png",
+    "images/Pasted image 20250612160407.png",
+    "images/Pasted image 20250616223423.png",
+    "images/Pasted image 20250616144401.png",
+    "images/Pasted image 20250625184351.png",
+    "images/Pasted image 20250626154302.png",
+    "OS/Windows/Share.md",
+    "OS/Windows/Subnet mask.md",
+    "OS/Windows/VM.md",
+    "images",
+    "General.md",
+    "Testing Techniques.md",
+    "Types of Automatic Testing.md",
+    "OS/Windows/DNS/Record Types.md",
+    "OS/Windows/DNS/DNS Revised.md",
+    "OS/Windows/DNS/Different Approaches of Configuration.md",
+    "OS/Windows/DNS/Zones.md",
+    "OS/Windows/DNS/DNS.md",
+    "OS/Windows/DNS/Device Registration.md",
+    "OS/Windows/DNS",
+    "OS/Windows/DHCP/Scopes.md",
+    "OS/Windows/DHCP/Reservation.md",
+    "OS/Windows/DHCP/Properties.md",
+    "OS/Windows/DHCP/Lease.md",
+    "OS/Windows/DHCP/High availability and Failover Protocols.md",
+    "OS/Windows/DHCP/DORA.md",
+    "OS/Windows/DHCP",
+    "OS/Windows/AD DS",
+    "OS/Windows",
+    "OS/Linux",
+    "OS"
+  ]
+}
