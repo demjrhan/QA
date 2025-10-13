@@ -11,7 +11,7 @@
 
 | **OrangeHRM Manual Testing Project (Jira)** | **Preview** |
 |---|---|
-| Designed and executed 30+ manual test cases for the OrangeHRM open-source HR system, identifying 5 reproducible defects and documenting them in Jira. Focused on validating key modules such as login, employee management, and leave workflows to ensure functional accuracy and usability. | <img src="https://github.com/user-attachments/assets/69c9feef-bd95-45ec-a980-90638e2b5c1d" width="300" alt="OrangeHRM Manual"/> |
+| Designed and executed 25+ manual test cases for the OrangeHRM open-source HR system, identifying 5 reproducible defects and documenting them in Jira. Focused on validating key modules such as login, employee management, and leave workflows to ensure functional accuracy and usability. | <img src="https://github.com/user-attachments/assets/69c9feef-bd95-45ec-a980-90638e2b5c1d" width="300" alt="OrangeHRM Manual"/> |
 | Click [here](https://github.com/demjrhan/orangehrm-manual) to access repository. |  |
 
 
