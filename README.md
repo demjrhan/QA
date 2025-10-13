@@ -5,7 +5,7 @@
 
 | **Zara UI Automation Framework (Selenium + Java)** | **Preview** |
 |---|---|
-| Developed and maintained a **Selenium-based automation framework** for Zara’s e-commerce site, implementing 20+ smoke and regression tests with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI stability with **Allure** reporting and modular Page Object design. | <img src="https://github.com/user-attachments/assets/2d4d76ca-2346-4bca-b1b4-fa07d58089b6" width="300" alt="Zara UI Automation"/> |
+| Developed and maintained a **Selenium-based automation framework** for Zara’s e-commerce site, implementing 35+ smoke, regression, positive and negative tests with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI stability with **Allure** reporting and modular Page Object design. | <img src="https://github.com/user-attachments/assets/2d4d76ca-2346-4bca-b1b4-fa07d58089b6" width="300" alt="Zara UI Automation"/> |
 | Click [here](https://github.com/demjrhan/zara-ui-automation) to access repository. |  |
 
 
