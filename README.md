@@ -17,7 +17,7 @@
 
 | **Saucedemo UI Automation Framework (Selenium + Java + Allure)** | **Preview** |
 |---|---|
-| Developed and maintained a **Selenium-based automation framework** for SauceDemo site, implementing **47 test cases** across smoke, regression, positive, and negative scenarios with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI/CD stability with **Allure** reporting, **GitHub Actions** integration, and modular **Page Object Model** design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="300" alt="Sauce Demo Automation"/> |
+| Developed and maintained a **Selenium-based automation framework** for SauceDemo site, implementing **47+ test cases** across smoke, regression, positive, and negative scenarios with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI/CD stability with **Allure** reporting, **GitHub Actions** integration, and modular **Page Object Model** design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="300" alt="Sauce Demo Automation"/> |
 | Click [here](https://github.com/demjrhan/saucedemo-automation) to access repository. |  |
 
 
