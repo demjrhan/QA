@@ -1,6 +1,6 @@
 # Quality Assurance Portfolio
 ![GitHub](https://img.shields.io/badge/git-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Swagger](https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black) ![Jira](https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Obsidian](https://img.shields.io/badge/obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white)
-![Maven](https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Postman](https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Postman](https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 
 | **Zara UI Automation Framework (Selenium + Java + Allure)** | **Preview** |
@@ -17,7 +17,7 @@
 
 | **Saucedemo UI Automation Framework (Selenium + Java + Allure)** | **Preview** |
 |---|---|
-| Developed and maintained a **Selenium-based automation framework** for Saucedemo site, implementing smoke, positive and negative tests with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI stability with **Allure** reporting and modular Page Object design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="300" alt="Sauce Demo Automation"/> |
+| Developed and maintained a **Selenium-based automation framework** for SauceDemo site, implementing **47 test cases** across smoke, regression, positive, and negative scenarios with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI/CD stability with **Allure** reporting, **GitHub Actions** integration, and modular **Page Object Model** design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="300" alt="Sauce Demo Automation"/> |
 | Click [here](https://github.com/demjrhan/saucedemo-automation) to access repository. |  |
 
 
