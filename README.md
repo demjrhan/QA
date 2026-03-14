@@ -1,5 +1,5 @@
 # Quality Assurance Portfolio
-![GitHub](https://img.shields.io/badge/git-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Swagger](https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black) ![Jira](https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Obsidian](https://img.shields.io/badge/obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white)
+![GitHub](https://img.shields.io/badge/git-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Swagger](https://img.shields.io/badge/swagger-%2385EA2D.svg?style=for-the-badge&logo=swagger&logoColor=black) ![Jira](https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Obsidian](https://img.shields.io/badge/obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white)
 ![Maven](https://img.shields.io/badge/maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Postman](https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 
@@ -8,16 +8,20 @@
 | Developed and maintained a **Selenium-based automation framework** for Zara’s e-commerce site, implementing 35+ smoke, regression, positive and negative tests with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI stability with **Allure** reporting and modular Page Object design. | <img src="https://github.com/user-attachments/assets/2d4d76ca-2346-4bca-b1b4-fa07d58089b6" width="300" alt="Zara UI Automation"/> |
 | Click [here](https://github.com/demjrhan/zara-ui-automation) to access repository. |  |
 
+| **TheyDo UI Automation Framework (Playwright + JavaScript)** | **Preview** |
+|---|---|
+| In progress: building a Playwright automation framework for the TheyDo web app using JavaScript and a Page Object Model. Includes UI flows, helper utilities for test data, and .env-based configuration for workspace and credentials. | <img src="https://cdn.talent-assets.remote.com/company_logos/ada56bd5-e200-451e-b7e5-fc3c8fc7a20ccompany_logo.png" width="230" alt="TheyDo Automation"/> |
+| Click [here](https://github.com/demjrhan/they-do-automation) to access repository. |  |
 
 | **OrangeHRM Manual Testing Project (Jira)** | **Preview** |
 |---|---|
-| Designed and executed 25+ manual test cases for the OrangeHRM open-source HR system, identifying 5 reproducible defects and documenting them in Jira. Focused on validating key modules such as login, employee management, and leave workflows to ensure functional accuracy and usability. | <img src="https://github.com/user-attachments/assets/69c9feef-bd95-45ec-a980-90638e2b5c1d" width="300" alt="OrangeHRM Manual"/> |
+| Designed and executed 25+ manual test cases for the OrangeHRM open-source HR system, identifying 5 reproducible defects and documenting them in Jira. Focused on validating key modules such as login, employee management, and leave workflows to ensure functional accuracy and usability. | <img src="https://github.com/user-attachments/assets/69c9feef-bd95-45ec-a980-90638e2b5c1d" width="290" alt="OrangeHRM Manual"/> |
 | Click [here](https://github.com/demjrhan/orangehrm-manual) to access repository. |  |
 
 
 | **Saucedemo UI Automation Framework (Selenium + Java + Allure)** | **Preview** |
 |---|---|
-| Developed and maintained a **Selenium-based automation framework** for SauceDemo site, implementing **47+ test cases** across smoke, regression, positive, and negative scenarios with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI/CD stability with **Allure** reporting, **GitHub Actions** integration, and modular **Page Object Model** design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="300" alt="Sauce Demo Automation"/> |
+| Developed and maintained a **Selenium-based automation framework** for SauceDemo site, implementing **47+ test cases** across smoke, regression, positive, and negative scenarios with **Java**, **TestNG**, and **Maven**. Focused on improving reliability, coverage, and CI/CD stability with **Allure** reporting, **GitHub Actions** integration, and modular **Page Object Model** design. | <img src="https://blog.nashtechglobal.com/wp-content/uploads/2024/04/SauceLabs.jpg" width="350" alt="Sauce Demo Automation"/> |
 | Click [here](https://github.com/demjrhan/saucedemo-automation) to access repository. |  |
 
 
